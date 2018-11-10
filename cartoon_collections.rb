@@ -9,7 +9,7 @@ end
 def summon_captain_planet(array)
   new_list = []
   for x in array
-    new_list.push("#{x.upcase}!")
+    new_list.push("#{x.capitalize}!")
   end
 end
 
