@@ -11,6 +11,7 @@ def summon_captain_planet(array)
   for x in array
     new_list.push("#{x.capitalize}!")
   end
+  return new_list
 end
 
 def long_planeteer_calls(array)
